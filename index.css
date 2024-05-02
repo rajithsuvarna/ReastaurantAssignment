@@ -97,7 +97,7 @@ body {
 
 #image1-div {
   width: 80%;
-  height: 70%;
+  min-height: 70%;
   background-image: url("./rooms.jpg");
   background-size: cover;
   background-position: center;
@@ -105,14 +105,14 @@ body {
 
 #image2-div {
   width: 80%;
-  height: 70%;
+  min-height: 70%;
   background-image: url("./dining.jpg");
   background-size: cover;
   background-position: center;
 }
 #image3-div {
   width: 80%;
-  height: 70%;
+  min-height: 70%;
   background-image: url("./pool.jpg");
   background-size: cover;
   background-position: center;
