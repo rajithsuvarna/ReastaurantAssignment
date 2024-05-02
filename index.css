@@ -167,6 +167,9 @@ body {
 /* Media Queries */
 @media only screen and (max-width: 768px) {
   /* Adjustments for smaller screens */
+  #main-image-content p {
+    font-size: 0.9rem;
+  }
   #main-image {
     height: 80vh;
   }
@@ -187,10 +190,16 @@ body {
   #main-page2 {
     padding: 2%;
   }
+  #card-container {
+    height:auto;
+  }
 }
 
 @media only screen and (max-width: 480px) {
   /* Adjustments for even smaller screens */
+  #main-image-content p {
+    font-size: 0.5rem;
+  }
   #main-image {
     height: 70vh;
   }
@@ -201,5 +210,8 @@ body {
 
   #card {
     width: 80%;
+  }
+  #card-container {
+    height:auto;
   }
 }
