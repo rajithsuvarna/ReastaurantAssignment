@@ -170,6 +170,15 @@ body {
   #main-image-content p {
     font-size: 0.9rem;
   }
+  #image1-content p{
+    font-size: 0.9rem;
+  }
+  #image2-content p{
+    font-size: 0.9rem;
+  }
+  #image3-content p{
+    font-size: 0.9rem;
+  }
   #main-image {
     height: 80vh;
   }
@@ -185,6 +194,7 @@ body {
   #card {
     width: 45%;
     margin: 2%;
+    height:auto;
   }
 
   #main-page2 {
@@ -203,6 +213,15 @@ body {
   #main-image {
     height: 70vh;
   }
+  #image1-content p{
+    font-size: 0.5rem;
+  }
+  #image2-content p{
+    font-size: 0.5rem;
+  }
+  #image3-content p{
+    font-size: 0.5rem;
+  }
 
   #main-image-content {
     height: 15vh;
@@ -210,6 +229,7 @@ body {
 
   #card {
     width: 80%;
+    height:auto;
   }
   #card-container {
     height:auto;
