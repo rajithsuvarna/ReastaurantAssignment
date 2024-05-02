@@ -213,6 +213,18 @@ body {
   #main-image {
     height: 70vh;
   }
+  #image1-div {
+  width: auto;
+  height: auto;
+  }
+  #image2-div {
+  width: auto;
+  height: auto;
+  }
+  #image3-div {
+  width: auto;
+  height: auto;
+  }
   #image1-content p{
     font-size: 0.5rem;
   }
