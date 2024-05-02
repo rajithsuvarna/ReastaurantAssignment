@@ -206,6 +206,18 @@ body {
   #card-container {
     height:auto;
   }
+  #image2-div {
+    width: 30vw;
+    height:30vh;
+  }
+  #image3-div {
+    width: 30vw;
+    height:30vh;
+  }
+  #image1-div {
+    width: 30vw;
+    height:30vh;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -240,5 +252,17 @@ body {
   }
   #card-container {
     height:auto;
+  }
+  #image2-div {
+    width: 40vw;
+    height:30vh;
+  }
+  #image3-div {
+    width: 40vw;
+    height:30vh;
+  }
+  #image1-div {
+    width: 40vw;
+    height:30vh;
   }
 }
