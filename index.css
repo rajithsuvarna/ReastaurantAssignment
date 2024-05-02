@@ -170,6 +170,9 @@ body {
   #main-image-content p {
     font-size: 0.9rem;
   }
+  #main-image-content h2 {
+    font-size: 0.9rem;
+  }
   #image1-content p{
     font-size: 0.9rem;
   }
@@ -210,21 +213,13 @@ body {
   #main-image-content p {
     font-size: 0.5rem;
   }
+  #main-image-content h2 {
+    font-size: 0.9rem;
+  }
   #main-image {
     height: 70vh;
   }
-  #image1-div {
-  width: auto;
-  height: auto;
-  }
-  #image2-div {
-  width: auto;
-  height: auto;
-  }
-  #image3-div {
-  width: auto;
-  height: auto;
-  }
+  
   #image1-content p{
     font-size: 0.5rem;
   }
