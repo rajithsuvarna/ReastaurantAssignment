@@ -46,15 +46,14 @@ body {
 
 #main-image {
   width: 100vw;
-  height: 90%;
-  background-color: aqua;
+  height: 90vh; 
   background-image: url("./heroimg.jpg");
   background-size: cover;
   background-position: center;
 }
 
 #main-image-content {
-  height: 30%;
+  height: 30vh;
   width: 100vw;
   background-color: #b2b2b2;
   display: flex;
@@ -70,7 +69,7 @@ body {
 
 #card-container {
   width: 100vw;
-  height: 80%;
+  height: 80vh; 
 
   display: flex;
   justify-content: space-around;
@@ -89,7 +88,7 @@ body {
 
 #main-page2 {
   width: 100vw;
-  height: 70%;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -163,4 +162,44 @@ body {
 }
 #image3-content {
   width: 80%;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  #main-image {
+    height: 80vh;
+  }
+
+  #main-image-content {
+    height: 20vh;
+  }
+
+  #card-container {
+    flex-wrap: wrap;
+  }
+
+  #card {
+    width: 45%;
+    margin: 2%;
+  }
+
+  #main-page2 {
+    padding: 2%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Adjustments for even smaller screens */
+  #main-image {
+    height: 70vh;
+  }
+
+  #main-image-content {
+    height: 15vh;
+  }
+
+  #card {
+    width: 80%;
+  }
 }
