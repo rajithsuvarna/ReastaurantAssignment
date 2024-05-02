@@ -48,7 +48,7 @@ body {
   width: 100vw;
   height: 90%;
   background-color: aqua;
-  background-image: url("./assign2/heroimg.jpg");
+  background-image: url("./heroimg.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -99,7 +99,7 @@ body {
 #image1-div {
   width: 80%;
   height: 70%;
-  background-image: url("./assign2/rooms.jpg");
+  background-image: url("./rooms.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -107,14 +107,14 @@ body {
 #image2-div {
   width: 80%;
   height: 70%;
-  background-image: url("./assign2/dining.jpg");
+  background-image: url("./dining.jpg");
   background-size: cover;
   background-position: center;
 }
 #image3-div {
   width: 80%;
   height: 70%;
-  background-image: url("./assign2/pool.jpg");
+  background-image: url("./pool.jpg");
   background-size: cover;
   background-position: center;
 }
